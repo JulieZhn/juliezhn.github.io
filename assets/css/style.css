@@ -572,6 +572,9 @@ section {
   position: relative;
   overflow: hidden;
   z-index: 1;
+  border: solid #afafaf 1px;
+  box-shadow:0 0 15px #afafaf;
+  padding: 15px;
 }
 
 .portfolio .portfolio-wrap::before {
@@ -693,6 +696,12 @@ section {
 .portfolio-details .portfolio-description p {
   padding: 0;
 }
+
+.portfolio-wrap img {
+  margin-bottom: 15px; /* Add some space below the image */
+}
+
+
 
 /*--------------------------------------------------------------
 # Services
